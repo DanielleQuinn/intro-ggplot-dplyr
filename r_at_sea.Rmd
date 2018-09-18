@@ -1,0 +1,43 @@
+---
+title: "R at Sea"
+author: "Danielle"
+date: "September 3, 2018"
+output: html_document
+---
+
+#Header One
+##Subheader
+###SubSubheader
+
+This is text not code. You can modify your text using standard symbols. For example to make something **bold**,
+*italic*, etc.
+
+How do we add code?
+
+```{r, echo = FALSE}
+library(ggplot2)
+a <- 1:10
+df <- data.frame(col1 = 1:10, col2 = 10:1)
+ggplot(df) + geom_point(aes(x = col1, y = col2))
+```
+
+What if we want to know the average value of a?
+
+The average of a is `r mean(a)`.
+
+To find this value, I used the `mean` function in R.
+
+To learn more about this function, go [Google](https://www.google.com) it.
+
+To add a photo:
+![](IMG_7007.JPG)
+
+
+
+
+
+
+
+
+
+
