@@ -1,0 +1,21 @@
+Capstone Challenge:
+
+Creating a list of tasks that will need to be completed to reproduce a figure is a great way of keeping track
+of your progress and helps you identify which tasks you will need to use resources like R Cookbook or
+the ggplot2 Cheat Sheet. These tasks are listed, generally, in increasing difficulty. As you complete a task,
+add a "+" sign next to it on the Etherpad. If you can't quite figure out  task, move on to the next one, or 
+discuss it with your neighbour. As I see "+" added to each task, we will pause and I'll ask someone to add the
+code to the Etherpad and explain how it works.
+
+(a) Subset data to only include 2007
+(b) Boxplot of life expectancy and continent
+(c) Update axes labels
+(d) Use black and white theme
+(e) Add points overlaying boxplots
+(f) Points are "jittered" across a set width (i.e. no in a stright vertical line)
+(g) Points are triangles
+(h) Points are coloured by GDP per capita
+(i) Low values are red, high values are green
+(j) Legend title is GDP per Capita
+(k) Plot title is Life Expectancy and Gross Domestic Product in 2007
+(l) Export the plot
